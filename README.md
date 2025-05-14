@@ -1,6 +1,3 @@
-## 🧑‍💻 About Me in Code
-
-```php
 <?php
 
 namespace SharifUddin;
