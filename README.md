@@ -1,16 +1,41 @@
-## Hi there 👋
+<?php
 
-<!--
-**sharifde/sharifde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace SharifUddin;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplaces' => [
+               
+                [
+                    'company' => 'FOCUS - IT Services',
+                    'position' => 'Full-Stack Developer (Laravel & React) / Software Engineer',
+                    'location' => 'Islamabad'
+                ] ,
+                [
+                    'company' => 'Freelance / Self-employed',
+                    'position' => 'Full-Stack Developer (Laravel & React)'
+                ]
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Laravel::class,
+            VueJS::class,
+            ReactJS::class,
+            Javascript::class,
+            Python::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To become a Machine Learning Engineer and contribute to AI and open source.';
+    }
+}
