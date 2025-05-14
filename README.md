@@ -1,3 +1,6 @@
+## 🧑‍💻 About Me in Code
+
+```php
 <?php
 
 namespace SharifUddin;
@@ -8,13 +11,13 @@ class About extends Me
     {
         return [
             'workplaces' => [
-               
+                
                 [
-                    'company' => 'FOCUS - IT Services',
+                    'company' => 'FOCUS - IT Services  Islamabad',
                     'position' => 'Full-Stack Developer (Laravel & React) / Software Engineer',
                     'location' => 'Islamabad'
-                ] ,
-                [
+                ]
+                 [
                     'company' => 'Freelance / Self-employed',
                     'position' => 'Full-Stack Developer (Laravel & React)'
                 ]
